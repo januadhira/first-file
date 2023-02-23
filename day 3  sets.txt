@@ -1,0 +1,28 @@
+sets
+ 
+ mydata = {"aa", "bb", "cc"}
+print(mydata)
+
+o/p:{"cc","aa","bb"}
+ 
+set is an unorderd collection of elements so we will get in unorder form
+
+Access set items:
+ eg:loop through the set and print the values
+   
+    mydata={"a","b","c"}
+    for x in mydata:
+     print(x)
+
+o/p:c
+    b
+    a
+ 
+we can add,remove items in the list
+Join set:
+  we will use union()and update methos to join two sets
+eege:set1={"a","b"}
+     set2={1,2}
+     set3=set1.union(set2)
+     print(set3)
+o/p:{2,"a","b","1"}
